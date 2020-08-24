@@ -16,7 +16,7 @@ const myServer = http.createServer((req, res) => {
       res.statusCode = 200;
       break;
     //setting redirects for old non-existent pages
-    case "/about-us":
+    case "/about-me":
       res.statusCode = 301;
       res.setHeader("Location", "/about");
       res.end();

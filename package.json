@@ -1,0 +1,30 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishaan-ner/basic-node-express.git"
+  },
+  "keywords": [],
+  "author": "Ishaan Nerurkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishaan-ner/basic-node-express/issues"
+  },
+  "homepage": "https://github.com/ishaan-ner/basic-node-express#readme"
+}
